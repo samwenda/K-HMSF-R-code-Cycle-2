@@ -22,7 +22,7 @@ for (file_id in ls_tibble$id) {
   googledrive::drive_download(as_id(file_id),overwrite = TRUE)
 }
 
-#lister number one here
+#lister number one here 1
 unzip("LIST_1_Tabular_All.zip",exdir="raw/lister")
 #mapper
 unzip("mapform_1_Tabular_All.zip",exdir="raw/mapper")
